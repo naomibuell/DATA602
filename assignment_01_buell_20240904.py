@@ -29,7 +29,7 @@ length1 = float(input('Enter the length for rectangle 1: '))
 width1 = float(input('Enter the width for rectangle 1: '))
 
 length2 = float(input('Enter the length for rectangle 2: '))
-width2 = float(input('Enter the width for rectangle 1: '))
+width2 = float(input('Enter the width for rectangle 2: '))
 
 # Print the area of both rectangles.
 area1 = length1*width1

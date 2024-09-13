@@ -55,7 +55,7 @@ else:
 # ● add a new name and email address,
 # ● change an existing email address, and
 # ● delete an existing name and email address.
-address_book = {"Naomi" : "naomi.buell13@spsmail.cuny.edu"}
+address_book = {"Naomi" : "naomi@spsmail.cuny.edu"}
 print(address_book)
 
 user_input = int(input("Above is a list of your existing contacts. Please enter 1-4 to select an option: 1 = look up an email address. 2 = add a new name and email address. 3 = change an existing email address. 4 = delete an existing name and email address. "))

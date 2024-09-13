@@ -30,8 +30,8 @@ travel_list = ["Mexico city", "Machu picchu", "Seoul", "Amsterdam", "Morrocco"]
 print("Here is the list in its original order:", travel_list)
 travel_list.sort()
 print("Here is the list sorted:", travel_list)
-travel_list.reverse()
-print("Here is the list in reverse:", travel_list)
+travel_list.sort(reverse=True)
+print("Here is the list in reverse alphabetical order:", travel_list)
 
 # Q4. Write a program that creates a dictionary containing course numbers and the room
 # numbers of the rooms where the courses meet. The program should also create a

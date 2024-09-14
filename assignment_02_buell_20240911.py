@@ -1,3 +1,5 @@
+
+# %%
 # Q1. What will the following code display?
 numbers = [1, 2, 3, 4, 5]
 print(numbers[1:-5])
@@ -6,6 +8,7 @@ print(numbers[1:-5])
 # A: The code displays an empty list, because the print statement is for the 2nd through the 5th from last item in the list, i.e., the 1st, which yeilds nothing. The following code returns the entire list:
 print(numbers)
 
+# %%
 # Q2. Design a program that asks the user to enter a store’s sales for each day of the
 # week. The amounts should be stored in a list. Use a loop to calculate the total sales for
 # the week and display the result.
@@ -21,6 +24,7 @@ for day in range(len(days)):
 
 print("Total weekly sales = $", total)  # Print the total sales
 
+# %%
 # Q3. Create a list with at least 5 places you’d like to travel to. Make sure the list isn’t in
 # alphabetical order
 # ● Print your list in its original order.
@@ -33,6 +37,7 @@ print("Here is the list sorted:", travel_list)
 travel_list.sort(reverse=True)
 print("Here is the list in reverse alphabetical order:", travel_list)
 
+# %%
 # Q4. Write a program that creates a dictionary containing course numbers and the room
 # numbers of the rooms where the courses meet. The program should also create a
 # dictionary containing course numbers and the names of the instructors that teach each
@@ -49,6 +54,7 @@ if user_input in dict_rooms :
 else:
     print("Course number not found. Course numbers offered are 606, 602, or 607.")
 
+# %%
 # Q5. Write a program that keeps names and email addresses in a dictionary as
 # key-value pairs. The program should then demonstrate the four options:
 # ● look up a person’s email address,
